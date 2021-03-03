@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFDE7;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav p {
+  float: left;
+  color: #87ceeb;
+  text-align: center;
+  padding: 1px 20px;
+  font-size: 17px;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 7.5px 8px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 11px;
+  font-size: 14px;
+  outline: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 11px;
+  margin-right: 120px;
+  background: #1167b1;
+  font-size: 17px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color:#FFF;
+}
+
+.topnav .search-container button:hover {
+  background: #77C3EC;
+}
+
+.logout{
+  float: right;
+  display: block;
+  color: #AAAAAA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: -340px;
+  margin-top: 5px;
+}
+
+
+.message{
+  float: left;
+  display: block;
+  color: #AAAAAA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 800px;
+  margin-top: 5px;
+}
+/*.arrow {
+  border: solid #AAAAAA;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}*/
+
+.bell{
+  float: left;
+  display: block;
+  color: #AAAAAA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.logout:hover,.message:hover,.bell:hover {
+	color:#C1C1C1;
+}
+
+.sidebar{
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #333;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	font-size: 16px;
+}
+.sidebar a{
+	display:block;
+	color: #AAAAAA;
+	padding:20px;
+	text-decoration: none;
+}
+.sidebar a:hover{
+	background-color: #555;
+	color: #FFF;
+}
+
+/*ChatBot*/
+.chat_icon{
+	position: fixed;
+	bottom: 0;
+	right: 30px;
+	z-index: 1000;
+	padding: 0;
+	font-size: 50px;
+	color: #000;
+	cursor: pointer;
+}
+.chat_box{
+	width: 300px;
+	height: 50vh;
+	position: fixed;
+	bottom: 80px;
+	right: 30px;
+	background:#dedede;
+	z-index: 1000;
+	transition: all 0.3s ease-out;
+	transform: scaleY(1);
+}

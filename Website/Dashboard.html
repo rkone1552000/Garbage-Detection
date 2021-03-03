@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin_Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="Dashboard.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!-- chat Bot -->
+	<div class="chat_icon">
+		<i class="fa fa-comments" aria-hidden="true"></i>	
+	</div>
+
+	<div class="chat_box">
+		
+	</div>
+<!-- chat bot ends -->
+
+										<!-- ///// TOP NAVIGATION BAR //////-->
+
+	<div class="topnav">
+		<p> <b>Welcome</b>, <i>Admin</i></p>
+		
+		<a class="message" href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
+		<i onclick="myFunction(this)" class="fa fa-caret-right"></i></a>
+
+		<a class="bell" href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+		<i onclick="myFunction(this)" class="fa fa-caret-right"></i></a>
+
+		<script>
+		function myFunction(x) {
+		  x.classList.toggle("fa-thumbs-down");
+		}
+		</script>
+
+		<div class="search-container">
+    		<form action="#">
+      			<input type="text" placeholder=" Search for..." name="search">
+      			<button type="submit"><i class="fa fa-search"></i></button>
+    		</form>
+  		</div>
+  		
+  		<a class="logout" href="#"><i class="fa fa-sign-out" style="font-size:15px"></i>Logout</a>
+	</div>
+
+									<!--   /////////// TOP NAVIGATION ENDS ------->
+
+									<!--  *****  SIDE NAV BAR  ****** -->
+	<div class="sidebar">
+		<a href="#"><i class="fa fa-exclamation-triangle"></i> Important </a>
+		<a href="#"><i class="fa fa-check-circle-o"></i> Completed </a>
+		<a href="#"><i class="fa fa-star-o"></i> Starred </a>
+		<a href="#"><i class="fa fa-hdd-o"></i> Drive </a>
+	</div>
+</body>
+</html>
